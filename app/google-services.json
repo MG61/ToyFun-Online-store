@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "254783601031",
+    "firebase_url": "https://toyfun-16be3-default-rtdb.firebaseio.com",
+    "project_id": "toyfun-16be3",
+    "storage_bucket": "toyfun-16be3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254783601031:android:d340227a21ec76e2677b22",
+        "android_client_info": {
+          "package_name": "com.example.babystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254783601031-i7jkh11fqt1kofnuf33fn4113doeeoem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babystore",
+            "certificate_hash": "1fc0452f2c912337bdbab3c06894b091a2f5985d"
+          }
+        },
+        {
+          "client_id": "254783601031-99il1j6uaal7lv5htjrksjsca60aifku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKSt7rrl1yNR3k6YM18dQc734smDDQkp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254783601031-99il1j6uaal7lv5htjrksjsca60aifku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Theme.AppCompat.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Home1"
+    tools:ignore="SpeakableTextPresentCheck">
+    <androidx.core.widget.NestedScrollView
+        android:background="@color/white"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/maincircle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:clipToOutline="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+            <ViewFlipper
+                android:id="@+id/viewFlipper1"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:autoStart="true"
+                android:flipInterval="3000"
+                android:inAnimation="@anim/flipin"
+                android:outAnimation="@anim/flipout"
+                app:cardCornerRadius="8dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="453dp"
+                    android:layout_height="163dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/slide1"
+                    app:cardCornerRadius="8dp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/slide2"
+                    app:cardCornerRadius="8dp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/slide3"
+                    app:cardCornerRadius="8dp" />
+            </ViewFlipper>
+        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

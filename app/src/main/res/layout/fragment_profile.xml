@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/maincircle"
+        android:clipToOutline="true"
+        style=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:padding="15dp"
+                android:text="Связаться с нами" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="47dp"
+                android:layout_alignParentRight="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:padding="15dp"
+                android:text="О компании" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="47dp"
+                android:layout_alignParentRight="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="188dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Выйти"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

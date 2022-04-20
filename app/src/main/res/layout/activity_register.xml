@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Auth.Register"
+    app:cardElevation="10dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logauth"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="   Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/circleedittext"
+            android:layout_margin="20dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="   Пароль"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:background="@drawable/circleedittext"
+
+            android:layout_margin="20dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="   Имя"
+            android:background="@drawable/circleedittext"
+            android:layout_margin="20dp"/>
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="   Телефон"
+            android:ems="10"
+            android:inputType="phone"
+            android:background="@drawable/circleedittext"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
