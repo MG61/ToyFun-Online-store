@@ -57,7 +57,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="90dp"
-                        android:src="@drawable/firstcat" />
+                        android:src="@drawable/firstcat2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -96,7 +96,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="90dp"
-                        android:src="@drawable/secondcat" />
+                        android:src="@drawable/secondcat2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -132,7 +132,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="90dp"
-                        android:src="@drawable/thirdcat" />
+                        android:src="@drawable/thirdcat2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -168,7 +168,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="90dp"
-                        android:src="@drawable/fourthcat" />
+                        android:src="@drawable/fourthcat2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -204,7 +204,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="90dp"
-                        android:src="@drawable/fifthcat" />
+                        android:src="@drawable/fifthcat2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -240,7 +240,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="90dp"
-                        android:src="@drawable/sixthcat" />
+                        android:src="@drawable/sixthcat2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -277,7 +277,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="90dp"
-                        android:src="@drawable/seventhcat" />
+                        android:src="@drawable/seventhcat2" />
 
                     <TextView
                         android:layout_width="85dp"
@@ -313,14 +313,13 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="90dp"
-                        android:src="@drawable/eighthcat" />
+                        android:src="@drawable/eighthcat2" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/ropa_sans"
-                        android:text="Интерактивные
-                         игрушки"
+                        android:text="Мягкие игрушки"
                         android:textAlignment="center"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -358,7 +357,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="90dp"
-                    android:src="@drawable/mainstore" />
+                    android:src="@drawable/mainstore2" />
 
                 <TextView
                     android:layout_width="wrap_content"

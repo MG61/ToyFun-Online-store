@@ -19,6 +19,13 @@ import android.widget.TextView;
 
 import com.example.babystore.categories.Allcategor1;
 import com.example.babystore.categories.Categories1;
+import com.example.babystore.categories.Categories2;
+import com.example.babystore.categories.Categories3;
+import com.example.babystore.categories.Categories4;
+import com.example.babystore.categories.Categories5;
+import com.example.babystore.categories.Categories6;
+import com.example.babystore.categories.Categories7;
+import com.example.babystore.categories.Categories8;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
@@ -38,7 +45,7 @@ public class Home1 extends Fragment {
     public final static int QRcodeWidth = 500 ;
     Bitmap bitmap ;
     TextView maintexthome, numbercard, provtext, pricetextsheet22;
-    CardView mainnamecard, qr;
+    CardView mainnamecard, qr, cat1home, cat2home, cat3home, cat4home, cat5home, cat6home, cat7home, cat8home;
     ImageView qrimage, imagesheet22;
     String code1 = "";
 
@@ -55,6 +62,14 @@ public class Home1 extends Fragment {
         qr = view.findViewById(R.id.qr);
         imagesheet22 = view.findViewById(R.id.imagesheet22);
         pricetextsheet22 = view.findViewById(R.id.pricetextsheet22);
+        cat1home = view.findViewById(R.id.cat1home);
+        cat2home = view.findViewById(R.id.cat2home);
+        cat3home = view.findViewById(R.id.cat3home);
+        cat4home = view.findViewById(R.id.cat4home);
+        cat5home = view.findViewById(R.id.cat5home);
+        cat6home = view.findViewById(R.id.cat6home);
+        cat7home = view.findViewById(R.id.cat7home);
+        cat8home = view.findViewById(R.id.cat8home);
 
         CardView allcat =  view.findViewById(R.id.allcat);
         allcat.setOnClickListener(new View.OnClickListener() {
@@ -67,6 +82,62 @@ public class Home1 extends Fragment {
         checkname();
         checkcard();
         checkcard2();
+        cat1home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Categories1.class);
+                startActivity(intent);
+            }
+        });
+        cat2home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Categories2.class);
+                startActivity(intent);
+            }
+        });
+        cat3home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Categories3.class);
+                startActivity(intent);
+            }
+        });
+        cat4home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Categories4.class);
+                startActivity(intent);
+            }
+        });
+        cat5home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Categories5.class);
+                startActivity(intent);
+            }
+        });
+        cat6home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Categories6.class);
+                startActivity(intent);
+            }
+        });
+        cat7home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Categories7.class);
+                startActivity(intent);
+            }
+        });
+        cat8home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Categories8.class);
+                startActivity(intent);
+            }
+        });
         return view;
     }
 

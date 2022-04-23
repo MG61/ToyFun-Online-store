@@ -17,7 +17,7 @@
 <!--        <item name="android:windowFullscreen">true</item>-->
     </style>
     <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:windowBackground">@drawable/log</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
     <style name="AuthNoActionBar">
