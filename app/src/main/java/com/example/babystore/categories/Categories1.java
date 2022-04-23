@@ -1,7 +1,6 @@
 package com.example.babystore.categories;
 
 import static com.example.babystore.RecyclerAllProduct.MyDataBase.TABLE_NAME2;
-import static com.example.babystore.RecyclerAllProduct2.MyDataBase2.TABLE_NAME;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -12,13 +11,16 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.example.babystore.R;
 import com.example.babystore.RecyclerAllProduct.AddRecycler;
 import com.example.babystore.RecyclerAllProduct.CustomAdapter;
 import com.example.babystore.RecyclerAllProduct.MyDataBase;
-import com.example.babystore.RecyclerAllProduct2.MyDataBase2;
 import com.example.babystore.RecyclerAllProduct.Toy;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;

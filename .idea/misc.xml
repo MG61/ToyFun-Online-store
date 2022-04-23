@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.262037037037037" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/border.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/circlebottomsheet.xml" value="0.26205128205128203" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/circlebutton.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/circleedittext.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/circlerecycleritem.xml" value="0.26614583333333336" />
@@ -35,19 +36,23 @@
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories8.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_dob_sql.xml" value="0.264" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_qr_code.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_sign.xml" value="0.4" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/auth.xml" value="0.2" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/bottom_sheet.xml" value="0.1" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/bottom_sheet_card.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/categories/activity_categories2.xml" value="0.11990740740740741" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/circlebutton.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/fragment_basket1.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/fragment_catalog1.xml" value="0.264" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/fragment_h_o_m_e.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/fragment_home1.xml" value="0.264" />
-        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/itemforrecyclerview.xml" value="0.4" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/my_rowrecyclerview.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/prov.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/menu/menu.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/menu/searchinrecycler.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16510416666666666" />
@@ -64,7 +69,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.1" />
+        <option name="scale" value="0.2" />
       </ProjectState>
     </option>
   </component>

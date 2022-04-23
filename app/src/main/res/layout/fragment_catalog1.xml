@@ -15,27 +15,6 @@
         android:layout_margin="10dp"
         android:orientation="vertical">
 
-
-<!--        <RelativeLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="?actionBarSize">-->
-
-<!--            <ImageView-->
-<!--                android:id="@+id/back"-->
-<!--                android:layout_width="51dp"-->
-<!--                android:layout_height="46dp"-->
-<!--                android:layout_centerVertical="true"-->
-<!--                android:padding="15dp"-->
-<!--                android:src="@drawable/back" />-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="51dp"-->
-<!--                android:layout_height="47dp"-->
-<!--                android:layout_alignParentRight="true"-->
-<!--                android:layout_centerVertical="true"-->
-<!--                android:padding="15dp"-->
-<!--                android:src="@drawable/search_up" />-->
-<!--        </RelativeLayout>-->
         <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,8 +56,8 @@
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/hot_wheels" />
+                        android:layout_height="90dp"
+                        android:src="@drawable/firstcat" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -116,8 +95,8 @@
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/funko" />
+                        android:layout_height="90dp"
+                        android:src="@drawable/secondcat" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -152,8 +131,8 @@
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/helicopter" />
+                        android:layout_height="90dp"
+                        android:src="@drawable/thirdcat" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -188,8 +167,8 @@
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ball" />
+                        android:layout_height="90dp"
+                        android:src="@drawable/fourthcat" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -224,8 +203,8 @@
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/birthday" />
+                        android:layout_height="90dp"
+                        android:src="@drawable/fifthcat" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -260,8 +239,8 @@
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/lego" />
+                        android:layout_height="90dp"
+                        android:src="@drawable/sixthcat" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -296,9 +275,9 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="71dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/puzzles" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="90dp"
+                        android:src="@drawable/seventhcat" />
 
                     <TextView
                         android:layout_width="85dp"
@@ -333,8 +312,8 @@
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/toy" />
+                        android:layout_height="90dp"
+                        android:src="@drawable/eighthcat" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -349,7 +328,6 @@
         </GridLayout>
 
         <GridLayout
-
             android:id="@+id/cat1"
             android:layout_width="match_parent"
             android:layout_height="150dp"
@@ -379,15 +357,14 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/hot_wheels" />
+                    android:layout_height="90dp"
+                    android:src="@drawable/mainstore" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/ropa_sans"
-                    android:text="Игрушечный
-                         транспорт"
+                    android:text="Все товары"
                     android:textAlignment="center"
                     android:textStyle="bold" />
 

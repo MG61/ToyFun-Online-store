@@ -7,55 +7,40 @@
     tools:context=".Auth.Register"
     app:cardElevation="10dp">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/logauth"></ImageView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_margin="20dp"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:hint="Email"
             android:ems="10"
-            android:hint="   Email"
-            android:inputType="textEmailAddress"
-            android:background="@drawable/circleedittext"
-            android:layout_margin="20dp"/>
+            android:inputType="textEmailAddress"/>
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="   Пароль"
-            android:ems="10"
-            android:inputType="textPassword"
-            android:background="@drawable/circleedittext"
-
-            android:layout_margin="20dp"/>
+            android:hint="Пароль"
+            android:ems="10"/>
 
         <EditText
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="   Имя"
-            android:background="@drawable/circleedittext"
-            android:layout_margin="20dp"/>
+            android:hint="Имя" />
 
         <EditText
             android:id="@+id/number"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="   Телефон"
-            android:ems="10"
-            android:inputType="phone"
-            android:background="@drawable/circleedittext"
-            android:layout_margin="20dp"/>
+            android:hint="Телефон"
+            android:inputType="phone"/>
     </LinearLayout>
 
 

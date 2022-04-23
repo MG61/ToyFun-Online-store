@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecyclerAllProduct.Bottom_Sheet"
+    android:clipChildren="false"
+    app:cardCornerRadius="32dp"
+    style="@style/Animation.Design.BottomSheetDialog"
+   >
+
+    <LinearLayout
+        android:id="@+id/bottomsheet"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/circlebottomsheet"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center|top"
+            android:background="@drawable/ic_baseline_remove_24"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imagesheet"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"/>
+
+        <TextView
+            android:id="@+id/maintextsheet"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:text="daedea"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/atrtextsheet"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="21dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/pricetextsheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="21dp"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

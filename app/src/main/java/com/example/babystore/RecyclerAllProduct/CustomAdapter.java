@@ -1,20 +1,30 @@
 package com.example.babystore.RecyclerAllProduct;
 
+import static android.os.Build.ID;
+
+import static com.example.babystore.RecyclerAllProduct.MyDataBase.COLUMN_ID;
+
 import android.content.Context;
 import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.view.menu.MenuView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.load.model.Model;
 import com.example.babystore.R;
+import com.example.babystore.categories.Categories1;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
@@ -25,6 +35,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     int singledata;
     ArrayList<Toy> modelArraylist;
     android.database.sqlite.SQLiteDatabase SQLiteDatabase;
+    MyDataBase dBmain;
 
     public CustomAdapter(Context context, int singledata, ArrayList<Toy> modelArraylist, android.database.sqlite.SQLiteDatabase SQLiteDatabase) {
         this.context = context;
@@ -50,6 +61,15 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         holder.product_price.setText(model.getPrice());
         holder.product_atr.setText(model.getAtr());
         holder.product_image1.setImageBitmap(bitmap);
+        holder.item.setOnClickListener (new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(context, R.style.BottomSheetDialogTheme);
+                bottomSheetDialog.setContentView(R.layout.bottom_sheet);
+                bottomSheetDialog.show();
+
+            }
+        });
     }
 
     @Override
@@ -60,8 +80,9 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView product_name, product_price, product_atr;
-        ImageView product_image1;
+        TextView product_name, product_price, product_atr, maintextsheet, atrtextsheet, pricetextsheet;
+        ImageView product_image1, imagesheet;
+        RelativeLayout item;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -69,6 +90,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
             product_price = itemView.findViewById(R.id.priceitem);
             product_atr = itemView.findViewById(R.id.artitem);
             product_image1 = itemView.findViewById(R.id.img1);
+            item = itemView.findViewById(R.id.item11111);
+            maintextsheet = itemView.findViewById(R.id.maintextsheet);
+            atrtextsheet = itemView.findViewById(R.id.atrtextsheet);
+            pricetextsheet = itemView.findViewById(R.id.pricetextsheet);
+            imagesheet = itemView.findViewById(R.id.imagesheet);
+
         }
     }
 

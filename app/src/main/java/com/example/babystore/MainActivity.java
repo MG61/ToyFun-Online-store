@@ -32,7 +32,13 @@ import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
 import com.example.babystore.categories.Categories1;
 import com.example.babystore.categories.Categories2;
 import com.example.babystore.dowbase.DataBaseHelper;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.io.IOException;
 
@@ -44,12 +50,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         BottomNavigationView navView = findViewById(R.id.bottomNavigationView);//Навигация
         NavController navController = Navigation.findNavController(this, R.id.fragment);//Навигация
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(R.id.home1, R.id.catalog1, R.id.basket1, R.id.profile).build();//Навигация
         NavigationUI.setupWithNavController(navView, navController);//Навигация
-
         DataBaseHelper myDbHelper = new DataBaseHelper(this);
         myDbHelper = new DataBaseHelper(this);
 

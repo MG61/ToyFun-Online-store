@@ -13,6 +13,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.example.babystore.MainActivity;
 import com.example.babystore.R;
@@ -25,13 +26,15 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.Random;
+
 public class Auth extends AppCompatActivity {
     Button sign, reg;
     FirebaseAuth auth;
     FirebaseDatabase db;
     DatabaseReference users;
 
-    RelativeLayout root;
+    ConstraintLayout root;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -155,6 +158,14 @@ public class Auth extends AppCompatActivity {
                     Snackbar.make(root, "Введите ваш телефон", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
+
+                String i1 = "", i2 = "", i3 = "" ,i4 = "";
+                Random r = new Random();
+                i1 = String.valueOf(r.nextInt(9999 - 1000 + 1) + 1000);
+                i2 = String.valueOf(r.nextInt(9999 - 1000 + 1) + 1000);
+                i3 = String.valueOf(r.nextInt(9999 - 1000 + 1) + 1000);
+                i4 = String.valueOf(r.nextInt(9999 - 1000 + 1) + 1000);
+                String forcard = (i1 + " " + i2 + " " + i3 + " " + i4);
 //                Регистрация пользователя
                 auth.createUserWithEmailAndPassword(email.getText().toString(), pass.getText().toString())
                         .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
@@ -165,6 +176,8 @@ public class Auth extends AppCompatActivity {
                                 user.setPass(pass.getText().toString());
                                 user.setName(name.getText().toString());
                                 user.setPhone(phone.getText().toString());
+                                user.setCard(forcard);
+
 
                                 users.child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                         .setValue(user)
