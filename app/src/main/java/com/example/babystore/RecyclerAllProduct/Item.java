@@ -49,22 +49,4 @@ public class Item extends AppCompatActivity {
         maintextsheet.setText(cursor.getString(1));
         cursor.close();
     }
-
-//    private void displayData() {
-//        sqLiteDatabase = dBmain.getReadableDatabase();
-//        Cursor cursor = sqLiteDatabase.rawQuery("SELECT * FROM " + "total_name" +"", null);
-//        ArrayList<Toy> models = new ArrayList<>();
-//        while (cursor.moveToNext()){
-//            int id = cursor.getInt(0);
-//            String name = cursor.getString(1);
-//            String price = cursor.getString(2);
-//            String atr = cursor.getString(3);
-//            byte[]image = cursor.getBlob(4);
-//            models.add(new Toy(id,name,price,atr,image));
-//        }
-//        cursor.close();
-//        konname.setText(name);
-////        myAdapter = new CustomAdapter(this, R.layout.itemforrecyclerview, models, sqLiteDatabase);
-////        .setAdapter(myAdapter);
-//    }
 }

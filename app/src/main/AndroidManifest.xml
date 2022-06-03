@@ -13,46 +13,67 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BabyStore">
         <activity
+            android:name=".Svyaz.Svyaz12"
+            android:exported="false" />
+        <activity
+            android:name=".Svyaz.Svyaz11"
+            android:exported="false" />
+        <activity
+            android:name=".Search.AllSearch"
+            android:exported="false"
+            android:label="Поиск товаров" />
+        <activity
             android:name=".Qr_code.Qr_code"
-            android:exported="true" >
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            android:exported="true">
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".categories.Categories8"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Мягкие игрушки" />
         <activity
             android:name=".categories.Categories7"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Головоломки" />
         <activity
             android:name=".categories.Categories6"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Развивающие игрушки" />
         <activity
             android:name=".categories.Categories5"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Праздник" />
         <activity
             android:name=".categories.Categories4"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Активные игры" />
         <activity
             android:name=".categories.Categories3"
-            android:exported="false" />
+            android:exported="false"
+            android:label="На радиоуправлении" />
         <activity
             android:name=".Sqlcat.DobSql"
             android:exported="true" />
         <activity
             android:name=".categories.Categories2"
             android:exported="false"
+            android:label="Фигурки"
             android:screenOrientation="portrait" />
         <activity
             android:name=".categories.Categories1"
             android:exported="false"
+            android:label="Игрушечный транспорт"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Auth.Auth"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Auth.Register"
             android:exported="false" />
@@ -62,7 +83,8 @@
             android:parentActivityName=".Sqlcat.DobSql" />
         <activity
             android:name=".categories.Allcategor1"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Все товары" />
         <activity
             android:name=".RecyclerAllProduct.AddRecycler"
             android:exported="false" />

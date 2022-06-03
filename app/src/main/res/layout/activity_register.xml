@@ -42,6 +42,4 @@
             android:hint="Телефон"
             android:inputType="phone"/>
     </LinearLayout>
-
-
 </androidx.cardview.widget.CardView>

@@ -284,5 +284,4 @@ public class MyDataBase  extends SQLiteOpenHelper {
             Toast.makeText(context, "Successfully", Toast.LENGTH_SHORT).show();
         }
     }
-
 }

@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
@@ -33,6 +34,8 @@ import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.Target;
 import com.example.babystore.Auth.Auth;
 import com.example.babystore.Auth.User;
+import com.example.babystore.Svyaz.Svyaz11;
+import com.example.babystore.Svyaz.Svyaz12;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -55,6 +58,7 @@ public class Profile extends Fragment {
     Button exit;
     TextView name1, nameprofilefirebase, telprofilefirebase;
     ImageView photoprofile;
+    RelativeLayout svyaz1, svyaz2;
 
     public static String PACKAGE_NAME;
 
@@ -72,6 +76,8 @@ public class Profile extends Fragment {
         telprofilefirebase = (TextView) view.findViewById(R.id.telprofilefirebase);
         photoprofile = (ImageView) view.findViewById(R.id.photoprofile);
         exit = (Button) view.findViewById(R.id.exit);
+        svyaz1 = view.findViewById(R.id.svyaz1);
+        svyaz2 = view.findViewById(R.id.svyaz2);
         checkname();
         checktel();
         exit.setOnClickListener(new View.OnClickListener() {
@@ -80,6 +86,22 @@ public class Profile extends Fragment {
                 FirebaseAuth.getInstance().signOut();
                 Intent i = new Intent(new Intent(getActivity(), Auth.class));
                 startActivity(i);
+            }
+        });
+
+        svyaz1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Svyaz11.class);
+                startActivity(intent);
+            }
+        });
+
+        svyaz2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Svyaz12.class);
+                startActivity(intent);
             }
         });
 

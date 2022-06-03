@@ -11,7 +11,9 @@
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/circlerecycleritem.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/cornerviewflipper.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/flipin.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/forsearch_view.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/ic_________toyman.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/ic_authorizationlogo.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.23657407407407408" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/ic_baseline_add_shopping_cart_24.xml" value="0.23657407407407408" />
@@ -25,14 +27,15 @@
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/signin.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/splashscreen.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_add_recycler.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_all_search.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_allcategor.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_allcategor1.xml" value="0.2" />
-        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories1.xml" value="0.264" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories1.xml" value="0.1" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories2.xml" value="0.13240740740740742" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories3.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories4.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories5.xml" value="0.25" />
-        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories6.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories6.xml" value="0.1" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories7.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories8.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_dob_sql.xml" value="0.264" />
@@ -41,6 +44,8 @@
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_sign.xml" value="0.4" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_svyaz11.xml" value="0.264" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_svyaz12.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/auth.xml" value="0.2" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/bottom_sheet.xml" value="0.1" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/bottom_sheet_card.xml" value="0.25" />
@@ -54,6 +59,7 @@
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/itemforrecyclerview.xml" value="0.4" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/my_rowrecyclerview.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/prov.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/splash_screen.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/menu/menu.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/menu/searchinrecycler.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16510416666666666" />

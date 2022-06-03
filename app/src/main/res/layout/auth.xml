@@ -6,20 +6,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".Auth.Auth"
     style="@style/AuthNoActionBar"
-    android:background="@drawable/logauth"
+    android:background="@drawable/ic_authorizationlogo12"
     android:id="@+id/root_element">
 
-
-    <ImageView
-        android:layout_width="350dp"
-        android:layout_height="350dp"
-        android:src="@drawable/logonofon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167" />
 
     <TextView
         android:id="@+id/textView"
@@ -27,48 +16,82 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="40dp"
         android:layout_marginEnd="63dp"
-        android:text="Добро пожаловать"
+        android:text="Авторизация"
         android:textColor="@color/white"
         android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.324"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="63dp"
+        android:text="Приятно видеть вас снова!"
+        android:textColor="#9FFFFFFF"
+        android:textSize="16dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095">
 
     </TextView>
 
     <Button
         android:id="@+id/sign"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_height="65dp"
         android:layout_alignParentEnd="true"
-        android:background="@drawable/signin"
+        android:backgroundTint="#dbdbe5"
         android:text="Войти"
+        android:textColor="#2e93e3"
+        app:cornerRadius="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.207"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.752" />
+        app:layout_constraintVertical_bias="0.184" />
 
-    <Button
+    <TextView
         android:id="@+id/register"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/signin"
         android:text="Зарегистрироваться"
+        android:textColor="#2e93e3"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вы не зарегистрированы?"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888"
-        app:strokeColor="@color/white"
-        app:strokeWidth="2dp" />
-
-
+        app:layout_constraintVertical_bias="0.977" />
 </androidx.constraintlayout.widget.ConstraintLayout>

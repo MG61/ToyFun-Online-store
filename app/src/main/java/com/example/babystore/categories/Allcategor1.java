@@ -50,33 +50,9 @@ public class Allcategor1 extends AppCompatActivity {
         maintextsheet = findViewById(R.id.maintextsheet);
 
         recyclerView = findViewById(R.id.recycleView);
-        add_button = findViewById(R.id.floatingActionButton);
-        add_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Allcategor1.this, AddRecycler.class);
-                startActivity(intent);
-            }
-        });
         dBmain = new MyDataBase(this);
         displayData();
         recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
-    }
-
-    public void gettext()
-    {
-        sqLiteDatabase = dBmain.getReadableDatabase();
-        Cursor cursor = sqLiteDatabase.rawQuery("select * from total_name where COLUMN_ID = ?", new String[] {COLUMN_ID+""});
-        ArrayList<Toy>text = new ArrayList<>();
-        while (cursor.moveToNext()){
-            int id = cursor.getInt(0);
-            String name = cursor.getString(1);
-            String price = cursor.getString(2);
-            String atr = cursor.getString(3);
-            byte[]image = cursor.getBlob(4);
-            text.add(new Toy(id,name,price,atr,image));
-        }
-        cursor.close();
     }
 
     private void displayData() {

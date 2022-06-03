@@ -5,6 +5,7 @@ import static android.os.Build.ID;
 import static com.example.babystore.RecyclerAllProduct.MyDataBase.COLUMN_ID;
 
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
@@ -22,6 +23,7 @@ import androidx.appcompat.view.menu.MenuView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.load.model.Model;
+import com.example.babystore.Qr_code.Qr_code;
 import com.example.babystore.R;
 import com.example.babystore.categories.Categories1;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
@@ -36,6 +38,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     ArrayList<Toy> modelArraylist;
     android.database.sqlite.SQLiteDatabase SQLiteDatabase;
     MyDataBase dBmain;
+
+    public void setFilteredList(ArrayList<Toy> filteredList){
+        this.modelArraylist = filteredList;
+        notifyDataSetChanged();
+
+    }
 
     public CustomAdapter(Context context, int singledata, ArrayList<Toy> modelArraylist, android.database.sqlite.SQLiteDatabase SQLiteDatabase) {
         this.context = context;
@@ -68,8 +76,10 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
                 bottomSheetDialog.setContentView(R.layout.bottom_sheet);
                 bottomSheetDialog.show();
 
+
             }
         });
+
     }
 
     @Override
@@ -98,6 +108,4 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
         }
     }
-
-
 }

@@ -17,6 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SearchView;
 
+import com.example.babystore.Search.AllSearch;
 import com.example.babystore.Sqlcat.Allcategor;
 import com.example.babystore.Sqlcat.DobSql;
 import com.example.babystore.categories.Allcategor1;
@@ -31,19 +32,18 @@ import com.example.babystore.categories.Categories8;
 
 public class Catalog1 extends Fragment implements View.OnClickListener{
 
-    CardView categories1, categories2, categories3, categories4, categories5 ,categories6 ,categories7 ,categories8, allcategories, allcategories1;
+    CardView categories1, categories2, categories3, categories4, categories5 ,categories6 ,categories7 ,categories8, allcategories, intsearch ;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_catalog1, container, false);
-
+        intsearch = view.findViewById(R.id.intsearch);
         categories1 = view.findViewById(R.id.categor1);//Обьявление элемента категории
         categories2 = view.findViewById(R.id.categor2);//Обьявление элемента категории
         categories3 = view.findViewById(R.id.categor3);//Обьявление элемента категории
@@ -62,6 +62,15 @@ public class Catalog1 extends Fragment implements View.OnClickListener{
         categories7.setOnClickListener(this);//Обьявление кнопки элемента категории
         categories8.setOnClickListener(this);//Обьявление кнопки элемента категории
         allcategories.setOnClickListener(this);
+
+        intsearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), AllSearch.class);
+                startActivity(intent);
+            }
+        });
+
         return view;
     }
 
@@ -69,6 +78,7 @@ public class Catalog1 extends Fragment implements View.OnClickListener{
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
         inflater.inflate(R.menu.searchinrecycler, menu);
         MenuItem item = menu.findItem(R.id.action_search);
+
         SearchView searchView =(SearchView) item.getActionView();
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -126,5 +136,4 @@ public class Catalog1 extends Fragment implements View.OnClickListener{
                 break;
         }
     }
-
 }

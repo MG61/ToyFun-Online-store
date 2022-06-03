@@ -43,9 +43,9 @@ import java.util.Random;
 public class Home1 extends Fragment {
 
     public final static int QRcodeWidth = 500 ;
-    Bitmap bitmap ;
-    TextView maintexthome, numbercard, provtext, pricetextsheet22;
-    CardView mainnamecard, qr, cat1home, cat2home, cat3home, cat4home, cat5home, cat6home, cat7home, cat8home;
+    Bitmap bitmap;
+    TextView maintexthome, numbercard, pricetextsheet22;
+    CardView qr, cat1home, cat2home, cat3home, cat4home, cat5home, cat6home, cat7home, cat8home;
     ImageView qrimage, imagesheet22;
     String code1 = "";
 
@@ -55,10 +55,8 @@ public class Home1 extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home1, container, false);
 
         maintexthome = view.findViewById(R.id.maintexthome);
-        mainnamecard = view.findViewById(R.id.mainnamecard);
         qrimage = view.findViewById(R.id.qrimage);
         numbercard = view.findViewById(R.id.numbercard);
-        provtext = view.findViewById(R.id.provtext);
         qr = view.findViewById(R.id.qr);
         imagesheet22 = view.findViewById(R.id.imagesheet22);
         pricetextsheet22 = view.findViewById(R.id.pricetextsheet22);

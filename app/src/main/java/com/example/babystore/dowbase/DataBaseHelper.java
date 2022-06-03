@@ -119,26 +119,4 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
     }
-
-    // Здесь можно добавить вспомогательные методы для доступа и получения данных из БД
-    // вы можете возвращать курсоры через "return myDataBase.query(....)", это облегчит их использование
-    // в создании адаптеров для ваших view
 }
-
-//    Теперь вы можете создать новый экземпляр класса DataBaseHelper и вызвать методы createDataBase() и openDataBase(). Не забудьте изменить YOUR_PACKAGE на имя пакета в вашем приложении в строке DB_PATH.
-
-
-//        DataBaseHelper myDbHelper = new DataBaseHelper(this);
-//        myDbHelper = new DataBaseHelper(this);
-//
-//        try {
-//        myDbHelper.createDataBase();
-//        } catch (IOException ioe) {
-//        throw new Error("Unable to create database");
-//        }
-//
-//        try {
-//        myDbHelper.openDataBase();
-//        }catch(SQLException sqle){
-//        throw sqle;
-//        }

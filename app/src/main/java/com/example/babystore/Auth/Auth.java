@@ -7,6 +7,7 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -29,7 +30,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.Random;
 
 public class Auth extends AppCompatActivity {
-    Button sign, reg;
+    Button sign;
+    TextView reg;
     FirebaseAuth auth;
     FirebaseDatabase db;
     DatabaseReference users;
@@ -41,6 +43,9 @@ public class Auth extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.auth);
 
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
         sign = findViewById(R.id.sign);
         reg = findViewById(R.id.register);
 
@@ -146,8 +151,8 @@ public class Auth extends AppCompatActivity {
                     Snackbar.make(root, "Введите вашу почту", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
-                if (pass.getText().toString().length() < 5){
-                    Snackbar.make(root, "Введите ваш пароль", Snackbar.LENGTH_SHORT).show();
+                if (pass.getText().toString().replaceAll("[\\s\\d]", "").length() < 5){
+                    Snackbar.make(root, "Введите пароль больше 5-ти знаков со спец. символами", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
                 if (TextUtils.isEmpty(name.getText().toString())){

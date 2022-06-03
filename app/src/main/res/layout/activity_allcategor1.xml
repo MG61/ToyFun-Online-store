@@ -6,26 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".categories.Allcategor1">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="28dp"
-        android:clickable="true"
-        android:focusable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_baseline_add_24"
-        android:visibility="invisible"/>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycleView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        android:padding="5dp"
-        android:layout_gravity="center_horizontal"
-        android:orientation="vertical"/>
-
+        <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" >
+        </androidx.recyclerview.widget.RecyclerView>
 </androidx.constraintlayout.widget.ConstraintLayout>
