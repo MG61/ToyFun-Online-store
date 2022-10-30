@@ -17,6 +17,15 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.babystore.CatFire.ActiveCatFire;
+import com.example.babystore.CatFire.CatFire1;
+import com.example.babystore.CatFire.EducationalCatFire;
+import com.example.babystore.CatFire.FunkoCatFire;
+import com.example.babystore.CatFire.HolidayCatFire;
+import com.example.babystore.CatFire.LegoCatFire;
+import com.example.babystore.CatFire.PuzzlesCatFire;
+import com.example.babystore.CatFire.RadioCatFire;
+import com.example.babystore.CatFire.SoftCatFire;
 import com.example.babystore.categories.Allcategor1;
 import com.example.babystore.categories.Categories1;
 import com.example.babystore.categories.Categories2;
@@ -73,7 +82,7 @@ public class Home1 extends Fragment {
         allcat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Allcategor1.class);
+                Intent intent = new Intent(getActivity(), CatFire1.class);
                 startActivity(intent);
             }
         });
@@ -83,56 +92,56 @@ public class Home1 extends Fragment {
         cat1home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Categories1.class);
+                Intent intent = new Intent(getActivity(), LegoCatFire.class);
                 startActivity(intent);
             }
         });
         cat2home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Categories2.class);
+                Intent intent = new Intent(getActivity(), FunkoCatFire.class);
                 startActivity(intent);
             }
         });
         cat3home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Categories3.class);
+                Intent intent = new Intent(getActivity(), RadioCatFire.class);
                 startActivity(intent);
             }
         });
         cat4home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Categories4.class);
+                Intent intent = new Intent(getActivity(), ActiveCatFire.class);
                 startActivity(intent);
             }
         });
         cat5home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Categories5.class);
+                Intent intent = new Intent(getActivity(), HolidayCatFire.class);
                 startActivity(intent);
             }
         });
         cat6home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Categories6.class);
+                Intent intent = new Intent(getActivity(), EducationalCatFire.class);
                 startActivity(intent);
             }
         });
         cat7home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Categories7.class);
+                Intent intent = new Intent(getActivity(), PuzzlesCatFire.class);
                 startActivity(intent);
             }
         });
         cat8home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Categories8.class);
+                Intent intent = new Intent(getActivity(), SoftCatFire.class);
                 startActivity(intent);
             }
         });

@@ -17,6 +17,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SearchView;
 
+import com.example.babystore.CatFire.ActiveCatFire;
+import com.example.babystore.CatFire.CatFire1;
+import com.example.babystore.CatFire.EducationalCatFire;
+import com.example.babystore.CatFire.FunkoCatFire;
+import com.example.babystore.CatFire.HolidayCatFire;
+import com.example.babystore.CatFire.LegoCatFire;
+import com.example.babystore.CatFire.PuzzlesCatFire;
+import com.example.babystore.CatFire.RadioCatFire;
+import com.example.babystore.CatFire.SoftCatFire;
 import com.example.babystore.Search.AllSearch;
 import com.example.babystore.Sqlcat.Allcategor;
 import com.example.babystore.Sqlcat.DobSql;
@@ -99,39 +108,39 @@ public class Catalog1 extends Fragment implements View.OnClickListener{
         Intent i;
         switch (v.getId()) {
             case R.id.categor1:
-                i = new Intent(getActivity(), Categories1.class);
+                i = new Intent(getActivity(), LegoCatFire.class);
                 startActivity(i);
                 break;
             case R.id.categor2:
-                i = new Intent(getActivity(), Categories2.class);
+                i = new Intent(getActivity(), FunkoCatFire.class);
                 startActivity(i);
                 break;
             case R.id.categor3:
-                i = new Intent(getActivity(), Categories3.class);
+                i = new Intent(getActivity(), RadioCatFire.class);
                 startActivity(i);
                 break;
             case R.id.categor4:
-                i = new Intent(getActivity(), Categories4.class);
+                i = new Intent(getActivity(), ActiveCatFire.class);
                 startActivity(i);
                 break;
             case R.id.categor5:
-                i = new Intent(getActivity(), Categories5.class);
+                i = new Intent(getActivity(), HolidayCatFire.class);
                 startActivity(i);
                 break;
             case R.id.categor6:
-                i = new Intent(getActivity(), Categories6.class);
+                i = new Intent(getActivity(), EducationalCatFire.class);
                 startActivity(i);
                 break;
             case R.id.categor7:
-                i = new Intent(getActivity(), Categories7.class);
+                i = new Intent(getActivity(), PuzzlesCatFire.class);
                 startActivity(i);
                 break;
             case R.id.categor8:
-                i = new Intent(getActivity(), Categories8.class);
+                i = new Intent(getActivity(), SoftCatFire.class);
                 startActivity(i);
                 break;
             case R.id.allcategor:
-                i = new Intent(getActivity(), Allcategor1.class);
+                i = new Intent(getActivity(), CatFire1.class);
                 startActivity(i);
                 break;
         }

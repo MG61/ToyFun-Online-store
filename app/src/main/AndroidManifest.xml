@@ -4,6 +4,7 @@
     package="com.example.babystore">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +13,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BabyStore">
+        <activity
+            android:name=".CatFire.SoftCatFire"
+            android:exported="false" />
+        <activity
+            android:name=".CatFire.PuzzlesCatFire"
+            android:exported="false" />
+        <activity
+            android:name=".CatFire.EducationalCatFire"
+            android:exported="false" />
+        <activity
+            android:name=".CatFire.HolidayCatFire"
+            android:exported="false" />
+        <activity
+            android:name=".CatFire.ActiveCatFire"
+            android:exported="false" />
+        <activity
+            android:name=".CatFire.RadioCatFire"
+            android:exported="false" />
+        <activity
+            android:name=".CatFire.FunkoCatFire"
+            android:exported="false" />
+        <activity
+            android:name=".CatFire.LegoCatFire"
+            android:exported="false" />
+        <activity
+            android:name=".CatFire.CartActivity.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CatFire.CatFire1"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
         <activity
             android:name=".Svyaz.Svyaz12"
             android:exported="false" />
@@ -72,8 +111,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".Auth.Auth"
-            android:exported="false"
-            />
+            android:exported="false" />
         <activity
             android:name=".Auth.Register"
             android:exported="false" />

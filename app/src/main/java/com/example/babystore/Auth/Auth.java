@@ -148,19 +148,19 @@ public class Auth extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 if (TextUtils.isEmpty(email.getText().toString())){
-                    Snackbar.make(root, "Введите вашу почту", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(root, "Введите вашу почту!", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
-                if (pass.getText().toString().replaceAll("[\\s\\d]", "").length() < 5){
-                    Snackbar.make(root, "Введите пароль больше 5-ти знаков со спец. символами", Snackbar.LENGTH_SHORT).show();
+                if (pass.getText().toString().length() < 5){
+                    Snackbar.make(root, "Введите пароль больше 5-ти знаков!", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
                 if (TextUtils.isEmpty(name.getText().toString())){
-                    Snackbar.make(root, "Введите ваше имя", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(root, "Введите ваше имя!", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
                 if (TextUtils.isEmpty(phone.getText().toString())){
-                    Snackbar.make(root, "Введите ваш телефон", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(root, "Введите ваш телефон!", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -182,7 +182,6 @@ public class Auth extends AppCompatActivity {
                                 user.setName(name.getText().toString());
                                 user.setPhone(phone.getText().toString());
                                 user.setCard(forcard);
-
 
                                 users.child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                         .setValue(user)

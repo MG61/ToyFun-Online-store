@@ -69,17 +69,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         holder.product_price.setText(model.getPrice());
         holder.product_atr.setText(model.getAtr());
         holder.product_image1.setImageBitmap(bitmap);
-        holder.item.setOnClickListener (new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(context, R.style.BottomSheetDialogTheme);
-                bottomSheetDialog.setContentView(R.layout.bottom_sheet);
-                bottomSheetDialog.show();
-
-
-            }
-        });
-
     }
 
     @Override

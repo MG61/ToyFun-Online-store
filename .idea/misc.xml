@@ -21,15 +21,19 @@
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.23657407407407408" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.262037037037037" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.36944444444444446" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23657407407407408" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/maincircle.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/rounded.xml" value="0.26205128205128203" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/signin.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/drawable/splashscreen.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_active_cat_fire.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_add_recycler.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_all_search.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_allcategor.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_allcategor1.xml" value="0.2" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_cat_fire1.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories1.xml" value="0.1" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories2.xml" value="0.13240740740740742" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories3.xml" value="0.25" />
@@ -39,16 +43,24 @@
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories7.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_categories8.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_dob_sql.xml" value="0.264" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_educational_cat_fire.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_funko_cat_fire.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_holiday_cat_fire.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_lego_cat_fire.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_puzzles_cat_fire.xml" value="0.2359375" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_qr_code.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_radio_cat_fire.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_sign.xml" value="0.4" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_soft_cat_fire.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_svyaz11.xml" value="0.264" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/activity_svyaz12.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/auth.xml" value="0.2" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/bottom_sheet.xml" value="0.1" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/bottom_sheet_card.xml" value="0.25" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/cart_item.xml" value="0.33" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/categories/activity_categories2.xml" value="0.11990740740740741" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/circlebutton.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/fragment_basket1.xml" value="0.25" />
@@ -57,6 +69,7 @@
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/fragment_home1.xml" value="0.264" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/itemforrecyclerview.xml" value="0.4" />
+        <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/itemfromfirebasenewbase.xml" value="0.3625" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/my_rowrecyclerview.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/prov.xml" value="0.25" />
         <entry key="..\:/Users/abram/AndroidStudioProjects/BabyStore/app/src/main/res/layout/splash_screen.xml" value="0.25" />
