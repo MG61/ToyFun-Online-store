@@ -4,12 +4,13 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    namespace "com.example.babystore" // Добавь эту строку
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.babystore"
         minSdk 21
-        targetSdk 32
+        targetSdk 34
         versionCode 1
         versionName "1.0"
         dataBinding.enabled = true
@@ -30,7 +31,9 @@ android {
     buildFeatures {
         viewBinding true
     }
+    buildToolsVersion '35.0.0'
 }
+
 
 dependencies {
     implementation 'com.google.zxing:core:3.2.1'
